@@ -42,14 +42,29 @@
 //     alert("Por favor introduce un valor numérico");
 // }    
 
-user();
-function user() {
-    var txt = prompt("Escribe un texto");
-    while (confirm("¿Desea seguir?")) {
-        var nuevoTexto = prompt("Dame otro texto");
-        txt = txt + " - " + nuevoTexto;
-    }
-    alert(txt)
+// user();
+// function user() {
+//     var txt = prompt("Escribe un texto");
+//     while (confirm("¿Desea seguir?")) {
+//         var nuevoTexto = prompt("Dame otro texto");
+//         txt = txt + " - " + nuevoTexto;
+//     }
+//     alert(txt)
+// }
+
+//24 de marzo 2020
+// mayor();
+// function mayor(){
+//     var txt=0; 
+//     vector1 = new Array(txt); 
+
+//     txt = parseInt(prompt("Ingresa la cantidad de numeros a evaluar"));
+
+//     for(var i=0; i<txt; i++){
+//         vector1[i] = parseInt(prompt("Ingresa el valor del primer vector")); 
+//     }
+
+//     if 
+    
+    
 }
-
-

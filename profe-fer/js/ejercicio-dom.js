@@ -15,8 +15,7 @@ console.log(array)
 
 
 //dirección a la que enlaza el penúltimo enlace
-
-
+//----enlaces[5].href+'"');   enlaces[enlaces.lenght-2].href+'"'); 
 
 //número de enlaces que enlazan a http://prueba
 

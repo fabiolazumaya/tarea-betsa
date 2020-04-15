@@ -1,0 +1,39 @@
+#container-left{
+    float: left;
+    width: 10%;
+    max-width: 1366px;
+    background-color: teal;
+    margin: 5% 5%;
+    padding: 15%;
+    position: relative;
+}
+#button-left{
+    align-items: center;
+    position: absolute;
+    padding: 5%;
+    background-color: thistle;
+    border-radius: 50%;
+    text-align: center;
+}
+.clear-float{
+    clear: both;
+}
+#container-right{
+    float: right;
+    width: 10%;
+    max-width: 1366px;
+    background-color: thistle;
+    margin: 5% 5%;
+    padding: 15%;
+    position: relative;
+}
+#button-right{
+    align-items: center;
+    position: absolute;
+    align-items: center;
+    position: absolute;
+    padding: 5%;
+    background-color: teal;
+    border-radius: 50%;
+    text-align: center;
+}

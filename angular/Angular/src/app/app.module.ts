@@ -6,18 +6,18 @@ import { testComponent} from './components/test/test.component';
 import {ComponentTpl} from './components/componenttpl/componenttpl.component';
 
 import { from } from 'rxjs';
-import { HeaderComponent } from './component/header/header.component';
-import { SliderComponent } from './component/slider/slider.component';
-import { HealthyComponent } from './component/healthy/healthy.component';
-import { BigCardsComponent } from './component/big-cards/big-cards.component';
-import { CardsLeftComponent } from './component/cards-left/cards-left.component';
-import { CardsRightComponent } from './component/cards-right/cards-right.component';
-import { GridComponent } from './component/grid/grid.component';
-import { FooterComponent } from './component/footer/footer.component';
+import { HeaderComponent } from './components/header/header.component';
+import { SliderComponent } from './components/slider/slider.component';
+import { HealthyComponent } from './components/healthy/healthy.component';
+import { BigCardsComponent } from './components/big-cards/big-cards.component';
+import { CardsLeftComponent } from './components/cards-left/cards-left.component';
+import { CardsRightComponent } from './components/cards-right/cards-right.component';
+import { GridComponent } from './components/grid/grid.component';
+import { FooterComponent } from './components/footer/footer.component';
 @NgModule({
   declarations: [
-    AppComponent,
-    testComponent, //Separar por coma.
+    AppComponent, //Separar por coma.
+    testComponent, 
     ComponentTpl, 
     HeaderComponent, 
     SliderComponent, 

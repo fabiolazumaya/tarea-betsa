@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.horizontal-1{
+    display: flex; /*que yo voy a que modificar mi contenedor a mi gusto.*/
+    width: 80%; 
+    max-width: 1024px;
+    margin: 0 auto; /* Centrar los divs */
+    margin-top: 2%; /*margen de arribita */
+    padding: 1%; /* La separación que hay entre la imagen el div */ 
+    
+}
+.horizontal-1-img{
+    width: 49%; /*ancho*/
+    height: auto;/* que se ajuste la altura de lo que vaya haber a dentro*/
+    margin-right: 1%;
+    margin-left: 1%;
+    float: left;
+    padding-top: 2%;
+    justify-content: center; /* para poder acomodar la imagen en este caso centrada y para que no se vaya hasta la esquina superior izq*/
+}
+.horizontal-1-img img{
+    height: 80%; /*la altura que va a tener la imagen que tan estirada o comprimida va a estar*/
+    width: 100%; /*ponemos el 100% porque abarcaría todo el 40% de mi width en el contenedor*/
+}
+.summary h4{
+    color: #b0c364;
+}
+.summary{
+    width: 51%;
+    height: auto;
+    text-align: center; /* Se centró lo que se encuentra adentro del contenedor */  
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 8%;
+    padding-top: 8%;
+}
+.summary h2{
+    font-weight: 800;
+}
+time{
+    font-size: smaller;
+}
+span{
+    font-size: smaller;
+}
+p{
+    font-size: small;
+    line-height: 20px; /*hace la separación, entre lineado*/
+}
+button{
+    background-color: #b0c364;
+    color: white;
+    text-decoration: none; 
+    border: none;
+    padding: 2% 3%;
+}
+
+/*2da card */
+.horizontal-2{
+    display: flex; /*que yo voy a que modificar mi contenedor a mi gusto.*/
+    width: 80%; 
+    max-width: 1024px;
+    margin: 0 auto; /* Centrar los divs */
+    margin-top: 0%; /*margen de arribita */
+    margin-bottom: 2%;
+    padding: 1%;
+
+    
+}
+.summary2{
+    width: 51%;
+    height: auto;
+    text-align: center; /* Se centró lo que se encuentra adentro del contenedor */  
+    padding-right: 2%;
+    padding-left: 2%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+.horizontal-2-img{
+    width: 49%;
+    height: auto;
+    margin-right: 1%;
+    margin-left: 1%;
+    padding-top: 2%;
+    float: left;
+    justify-content: center;
+}
+.horizontal-2-img img{
+    height: 100%;
+    width: 100%;
+}
+.summary2 h4{
+    color: #b0c364;
+}
+.summary2 h2{
+    font-weight: 800;
+}

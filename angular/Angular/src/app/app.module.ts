@@ -8,7 +8,7 @@ import { AppComponent } from './app.component';
 import { testComponent} from './components/test/test.component';
 import {ComponentTpl} from './components/componenttpl/componenttpl.component';
 
-import { from } from 'rxjs';
+
 import { HeaderComponent } from './components/header/header.component';
 import { SliderComponent } from './components/slider/slider.component';
 import { HealthyComponent } from './components/healthy/healthy.component';
@@ -18,6 +18,7 @@ import { CardsRightComponent } from './components/cards-right/cards-right.compon
 import { GridComponent } from './components/grid/grid.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
+import { ErrorComponent } from './components/error/error.component';
 @NgModule({
   declarations: [
     AppComponent, //Separar por coma.
@@ -30,7 +31,7 @@ import { HomeComponent } from './components/home/home.component';
     CardsLeftComponent, 
     CardsRightComponent, 
     GridComponent, 
-    FooterComponent, HomeComponent, 
+    FooterComponent, HomeComponent, ErrorComponent, 
   ],
   imports: [
     BrowserModule,

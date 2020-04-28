@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        tripleta();
+        function tripleta(){
+            let a = parseInt(prompt("Ingresa el primer valor"));
+            let b = parseInt(prompt("Ingresa el segundo valor"));
+            let c = parseInt(prompt("Ingresa el tercer valor"));
+            let a2 = Math.pow(a,2);
+            let b2 = Math.pow(b,2);
+            let c2 = Math.pow(c,2);
+
+            if((a2 == (b2+c2)) || (b2==(a2+c2)) || (c2=(a2+b2))){
+                alert("Si es una tripleta pitagórica");
+            }else{
+                alert("No es una tripleta pitagórica");
+            }
+
+        }
+    </script>
+</body>
+</html>

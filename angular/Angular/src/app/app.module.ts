@@ -1,6 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+//import routing Angular
+import { routing, appRoutingProviders } from './app.routing';
+
 import { AppComponent } from './app.component';
 import { testComponent} from './components/test/test.component';
 import {ComponentTpl} from './components/componenttpl/componenttpl.component';
@@ -14,6 +17,7 @@ import { CardsLeftComponent } from './components/cards-left/cards-left.component
 import { CardsRightComponent } from './components/cards-right/cards-right.component';
 import { GridComponent } from './components/grid/grid.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { HomeComponent } from './components/home/home.component';
 @NgModule({
   declarations: [
     AppComponent, //Separar por coma.
@@ -26,12 +30,15 @@ import { FooterComponent } from './components/footer/footer.component';
     CardsLeftComponent, 
     CardsRightComponent, 
     GridComponent, 
-    FooterComponent, 
+    FooterComponent, HomeComponent, 
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    routing
   ],
-  providers: [],
+  providers: [
+    appRoutingProviders //se añade la variable creada. 
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

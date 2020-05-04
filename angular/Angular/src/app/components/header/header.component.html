@@ -2,19 +2,19 @@
     <!-- imagen -->
     <div class="cont-logo">
         <a href="Index.html">
-            <img src="./img/logo.png" alt="logo" title="logo">
+            <img src="../../../assets/img/logo.png" alt="logo" title="logo">
         </a>
     </div>
 
     <div class="main-nav">
         <nav>
             <ul class="nav">
-                <li><a [routerLink]="['/Home']">Home</a></li>
-                <li><a href="">Life&Tips</a></li>
-                <li><a href="">En 1.2.3</a></li>
-                <li><a href="">Healthy</a></li>
-                <li><a href="">Postres Y Bebidas</a></li>
-                <li><a href="">Slow Food</a></li>
+                <li [routerLinkActive]="['active']"><a [routerLink]="['/home']">Home</a></li>
+                <li [routerLinkActive]="['active']"><a [routerLink]="['/lifeandTips']">Life&Tips</a></li>
+                <li [routerLinkActive]="['active']"><a [routerLink]="['/en123']">En 1.2.3</a></li>
+                <li ><a [routerLink]="['/']">Healthy</a></li>
+                <li ><a [routerLink]="['/']">Postres Y Bebidas</a></li>
+                <li ><a [routerLink]="['/']">Slow Food</a></li>
             </ul>
         </nav>
     </div>

@@ -6,7 +6,6 @@ import { routing, appRoutingProviders } from './app.routing';
 
 import { AppComponent } from './app.component';
 import { testComponent} from './components/test/test.component';
-import {ComponentTpl} from './components/componenttpl/componenttpl.component';
 
 
 import { HeaderComponent } from './components/header/header.component';
@@ -19,11 +18,15 @@ import { GridComponent } from './components/grid/grid.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
 import { ErrorComponent } from './components/error/error.component';
+
+import { En123Component } from './components/en123/en123.component';
+import { CategoryComponent } from './components/category/category.component';
+import { RecepiDetailComponent } from './components/recepi-detail/recepi-detail.component';
+import { LifeandTipsComponent } from './components/lifeand-tips/lifeand-tips.component';
 @NgModule({
   declarations: [
     AppComponent, //Separar por coma.
     testComponent, 
-    ComponentTpl, 
     HeaderComponent, 
     SliderComponent, 
     HealthyComponent, 
@@ -31,7 +34,7 @@ import { ErrorComponent } from './components/error/error.component';
     CardsLeftComponent, 
     CardsRightComponent, 
     GridComponent, 
-    FooterComponent, HomeComponent, ErrorComponent, 
+    FooterComponent, HomeComponent, ErrorComponent, En123Component, CategoryComponent, RecepiDetailComponent, LifeandTipsComponent, 
   ],
   imports: [
     BrowserModule,

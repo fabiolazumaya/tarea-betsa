@@ -32,7 +32,7 @@ class Animales { //Clase Padre.
   
 
 
-//Creación de nuevos objetos de mi clase Hija. //PERRO Y GATO 
+// Instanciar// Creación de nuevos objetos de mi clase Hija. //PERRO Y GATO 
 
   const aDomestico1 = new AnimalesDomesticos(                          // Palabra reservada NEW, de mi clase hija.
     "Perro","Macho","Jungla de Asfalto","Mamifero","Omnivoros","Chihuahua","Rocky");

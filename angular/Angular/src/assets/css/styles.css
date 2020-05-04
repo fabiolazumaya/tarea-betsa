@@ -42,6 +42,10 @@ header{
 .nav li a:hover{
     color: #b0c364;
 }
+.nav li.active a{
+    color: coral;
+    background: transparent;
+}
 
 /* carrusel */
 #container-slayder{

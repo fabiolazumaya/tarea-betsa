@@ -5,12 +5,17 @@ import { Routes, RouterModule } from '@angular/router'; //Se indican las rutas.
 
 //Importar componentes que quiero que respondan a mis rutas.
 import { HomeComponent } from './components/home/home.component';
+import { LifeandTipsComponent } from './components/lifeand-tips/lifeand-tips.component';
+import { En123Component } from './components/en123/en123.component';
 import { ErrorComponent } from './components/error/error.component';
+
 
 //Crear array de urls con su componente a renderear. 
 const appRoutes: Routes = [ 
     {path: '', component: HomeComponent},
     {path: 'home', component: HomeComponent},
+    {path: 'lifeandTips', component: LifeandTipsComponent},
+    {path: 'en123', component: En123Component},
     {path: '**', component: ErrorComponent }, //Siempre debe de ir hasta abajo
 ]
 

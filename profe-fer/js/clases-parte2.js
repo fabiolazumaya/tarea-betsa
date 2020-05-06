@@ -26,12 +26,6 @@ class Empleado extends Persona {
     this.sueldo = sueldo;
     this.fechaIngreso = fechaIngreso;
   }
-  //   NumMujeres(){
-  //       return `En esta empresa existen ${} mujeres. `
-  //   }
-  //   NumHombres(){
-  //       return `En esta empresa existen ${} hombres`
-  //   }
 }
 
 class Cliente extends Persona {
@@ -42,8 +36,7 @@ class Cliente extends Persona {
     this.id = id;
   }
 }
-
-//Instanciando clase Hija
+// EMPLEADOS
 const Empleado1 = new Empleado(
   "Raúl Martinez",
   "Hombre",
@@ -85,13 +78,78 @@ const Empleado4 = new Empleado(
   "nov 2019"
 );
 
+//CLIENTES
+const clienteA = new Cliente(
+  "Manolo Martinez",
+  "Hombre",
+  25,
+  "Av. cochimí",
+  2018,
+  "0014"
+);
+const clienteB = new Cliente(
+  "Clemente Muñoz",
+  "Mujer",
+  35,
+  "Av. 553",
+  1999,
+  "0003"
+);
+const clienteC = new Cliente(
+  "Juan Valdez",
+  "Hombre",
+  65,
+  "Calle Luna real",
+  2020,
+  "0189"
+);
+const clienteD = new Cliente(
+  "Sofía Pedroza",
+  "Mujer",
+  23,
+  "Calle Margarita Echeverría",
+  1997,
+  "0056"
+);
+const clienteE = new Cliente(
+  "Dalia Pedroza",
+  "Mujer",
+  33,
+  "Calle Margarita Echeverría",
+  1997,
+  "0056"
+);
+
+//Cuantos empleados son hombres y mujeres.
 var empleados = [Empleado1, Empleado2, Empleado3, Empleado4];
 console.log(empleados.length);
 
+let mu = 0;
+let hom = 0;
+
 for (Empleado of empleados) {
-  Empleado.genero;
-  console.log(Empleado.genero);
+  // Empleado.genero;
+  // console.log(Empleado.genero);
+  if (Empleado.genero == "Mujer") {
+    mu++;
+  } else {
+    hom++;
+  }
 }
-for(){
-     
-}
+console.log(`Existe ${mu} mujeres`);
+console.log(`Existe ${hom} hombres`);
+
+//El empleado con mayor sueldo.
+
+//Cuantos clientes tengo.
+let clientes = [clienteA, clienteB, clienteC, clienteD, clienteE];
+console.log(`Existen ${clientes.length} clientes`);
+
+//Promedio edad clientes
+let clientesEdad = [clienteA, clienteB, clienteC, clienteD, clienteE];
+let suma = clienteA + clienteB + clienteC + clienteD + clienteE;
+let promedioEdad = suma / clientesEdad.length;
+
+console.log(
+  `La edad promedio de los clientes es:  ${clientesEdad.length} años`
+);

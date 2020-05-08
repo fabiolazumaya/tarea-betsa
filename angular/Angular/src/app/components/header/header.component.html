@@ -1,22 +1,27 @@
 <header>
-    <!-- imagen -->
-    <div class="cont-logo">
-        <a href="Index.html">
-            <img src="../../../assets/img/logo.png" alt="logo" title="logo">
-        </a>
-    </div>
+  <!-- imagen -->
+  <div class="cont-logo">
+    <a href="Index.html">
+      <img src="../../../assets/img/logo.png" alt="logo" title="logo" />
+    </a>
+  </div>
 
-    <div class="main-nav">
-        <nav>
-            <ul class="nav">
-                <li [routerLinkActive]="['active']"><a [routerLink]="['/home']">Home</a></li>
-                <li [routerLinkActive]="['active']"><a [routerLink]="['/lifeandTips']">Life&Tips</a></li>
-                <li [routerLinkActive]="['active']"><a [routerLink]="['/en123']">En 1.2.3</a></li>
-                <li ><a [routerLink]="['/']">Healthy</a></li>
-                <li ><a [routerLink]="['/']">Postres Y Bebidas</a></li>
-                <li ><a [routerLink]="['/']">Slow Food</a></li>
-            </ul>
-        </nav>
-    </div>
+  <div class="main-nav">
+    <nav>
+      <ul class="nav">
+        <li [routerLinkActive]="['active']">
+          <a [routerLink]="['/home']">Home</a>
+        </li>
+        <li [routerLinkActive]="['active']">
+          <a [routerLink]="['/lifeandTips', 'lifeand-tips']">Life&Tips</a>
+        </li>
+        <li [routerLinkActive]="['active']">
+          <a [routerLink]="['/lifeandTips', 'en123']">En 1.2.3</a>
+        </li>
+        <li><a [routerLink]="['/']">Healthy</a></li>
+        <li><a [routerLink]="['/']">Postres Y Bebidas</a></li>
+        <li><a [routerLink]="['/']">Slow Food</a></li>
+      </ul>
+    </nav>
+  </div>
 </header>
-
